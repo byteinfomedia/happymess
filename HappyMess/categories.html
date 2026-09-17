@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>All Categories — Happy Mess</title>
+<meta name="description" content="Every decor category Happy Mess ships — balloons, banners, sashes, photo props, cake toppers, candles, confetti and table decor — ready to use, delivered across India.">
+
+<link rel="icon" type="image/png" href="Favicon.png">
+<link rel="apple-touch-icon" href="Favicon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,500;1,9..144,600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ ANNOUNCEMENT BAR ============ -->
+<div class="topbar">
+  <div class="topbar__track">
+    <span>Free shipping across India on orders above ₹799</span>
+    <span class="dot">•</span>
+    <span>Use code <strong>MESS10</strong> for 10% off your first mess</span>
+    <span class="dot">•</span>
+    <span>Need it by tomorrow? Call <a href="tel:+918796760303">+91 87967 60303</a></span>
+    <span class="dot">•</span>
+  </div>
+</div>
+
+<!-- ============ HEADER / NAV ============ -->
+<header class="site-header" id="siteHeader">
+  <div class="nav-wrap">
+    <a href="index.html" class="nav-logo">
+      <img src="Logo-Navbar.png" alt="Happy Mess">
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+
+      <div class="nav-item has-dropdown">
+        <a href="themes.html" class="nav-link">Themes</a>
+        <button type="button" class="nav-caret-btn nav-toggle" aria-expanded="false" aria-haspopup="true" aria-label="Show Themes menu">
+          <svg class="nav-caret" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="dropdown">
+          <a href="index.html#birthdays"    style="--accent:#FF4F5E"><span class="dropdown__dot"></span>Birthday</a>
+          <a href="index.html#bachelorette" style="--accent:#6C5CE7"><span class="dropdown__dot"></span>Bachelorette</a>
+          <a href="index.html#anniversary"  style="--accent:#2FBF8F"><span class="dropdown__dot"></span>Anniversary</a>
+          <a href="index.html#babyshower"   style="--accent:#FFC53D"><span class="dropdown__dot"></span>Baby Shower</a>
+          <a href="themes.html#kids"        style="--accent:#FF9F43"><span class="dropdown__dot"></span>Kids' Themes</a>
+          <a href="themes.html#retirement"  style="--accent:#FF4F5E"><span class="dropdown__dot"></span>Retirement &amp; Farewell</a>
+          <a href="themes.html" class="dropdown__more"><span class="dropdown__dot"></span>&amp; Many More</a>
+        </div>
+      </div>
+
+      <div class="nav-item has-dropdown">
+        <a href="categories.html" class="nav-link is-active">Categories</a>
+        <button type="button" class="nav-caret-btn nav-toggle" aria-expanded="false" aria-haspopup="true" aria-label="Show Categories menu">
+          <svg class="nav-caret" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="dropdown">
+          <a href="#balloons"     style="--accent:#FF4F5E"><span class="dropdown__dot"></span>Balloons</a>
+          <a href="#banners"       style="--accent:#6C5CE7"><span class="dropdown__dot"></span>Banners &amp; Buntings</a>
+          <a href="#sashes"        style="--accent:#2FBF8F"><span class="dropdown__dot"></span>Sashes &amp; Badges</a>
+          <a href="#photoprops"    style="--accent:#FF9F43"><span class="dropdown__dot"></span>Photo Props</a>
+          <a href="#caketoppers"   style="--accent:#FF4F5E"><span class="dropdown__dot"></span>Cake Toppers</a>
+          <a href="#candles"       style="--accent:#6C5CE7"><span class="dropdown__dot"></span>Candles &amp; Sparklers</a>
+          <a href="#confetti"      style="--accent:#2FBF8F"><span class="dropdown__dot"></span>Confetti &amp; Poppers</a>
+          <a href="#tabledecor"    style="--accent:#FFC53D"><span class="dropdown__dot"></span>Table Decor</a>
+        </div>
+      </div>
+
+      <a href="contact.html" class="nav-link">Contact Us</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="icon-btn" aria-label="Search">
+        <svg viewBox="0 0 24 24" width="20" height="20"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><line x1="21" y1="21" x2="16.2" y2="16.2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <button class="icon-btn" aria-label="Cart">
+        <svg viewBox="0 0 24 24" width="20" height="20"><path d="M4 4h2l1.4 11.2a2 2 0 0 0 2 1.8h7.6a2 2 0 0 0 2-1.6L20.5 8H7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="10" cy="21" r="1.4" fill="currentColor"/><circle cx="18" cy="21" r="1.4" fill="currentColor"/></svg>
+        <span class="cart-count">0</span>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ CATEGORIES HERO ============ -->
+<section class="contact-hero">
+  <div class="contact-hero__inner">
+    <p class="hero__kicker">Every decor category we ship</p>
+    <h1>All our categories</h1>
+    <p class="contact-hero__sub">The building blocks behind every theme — pick a category to see what's inside, or call us and we'll help you put together the right mix.</p>
+  </div>
+</section>
+
+<!-- ============ CATEGORY GRID ============ -->
+<section class="section">
+  <div class="theme-grid">
+
+    <div class="theme-card reveal" id="balloons" style="--accent:#FF4F5E">
+      <div class="theme-card__glyph">🎈</div>
+      <h3>Balloons</h3>
+      <p>The backbone of every setup — bouquets, arches and everything in between.</p>
+      <ul class="theme-card__services">
+        <li>Balloon bouquets</li>
+        <li>Balloon arches</li>
+        <li>Foil balloons</li>
+        <li>Number &amp; letter balloons</li>
+      </ul>
+      <div class="theme-card__actions">
+        <a href="contact.html" class="btn btn--primary">Enquire</a>
+      </div>
+    </div>
+
+    <div class="theme-card reveal" id="banners" style="--accent:#6C5CE7">
+      <div class="theme-card__glyph">🎊</div>
+      <h3>Banners &amp; Buntings</h3>
+      <p>The first thing your guests see when they walk in.</p>
+      <ul class="theme-card__services">
+        <li>Happy Birthday banners</li>
+        <li>Fabric buntings</li>
+        <li>Photo banners</li>
+        <li>Welcome banners</li>
+      </ul>
+      <div class="theme-card__actions">
+        <a href="contact.html" class="btn btn--primary">Enquire</a>
+      </div>
+    </div>
+
+    <div class="theme-card reveal" id="sashes" style="--accent:#2FBF8F">
+      <div class="theme-card__glyph">🎗️</div>
+      <h3>Sashes &amp; Badges</h3>
+      <p>For the one everyone's actually there for.</p>
+      <ul class="theme-card__services">
+        <li>Bride-to-be sashes</li>
+        <li>Birthday sashes</li>
+        <li>Pin badges</li>
+      </ul>
+      <div class="theme-card__actions">
+        <a href="contact.html" class="btn btn--primary">Enquire</a>
+      </div>
+    </div>
+
+    <div class="theme-card reveal" id="photoprops" style="--accent:#FF9F43">
+      <div class="theme-card__glyph">🤳</div>
+      <h3>Photo Props</h3>
+      <p>Because half the party lives on Instagram afterwards.</p>
+      <ul class="theme-card__services">
+        <li>Selfie props</li>
+        <li>Photo booth frames</li>
+        <li>Hashtag signs</li>
+      </ul>
+      <div class="theme-card__actions">
+        <a href="contact.html" class="btn btn--primary">Enquire</a>
+      </div>
+    </div>
+
+    <div class="theme-card reveal" id="caketoppers" style="--accent:#FF4F5E">
+      <div class="theme-card__glyph">🎂</div>
+      <h3>Cake Toppers</h3>
+      <p>The finishing touch on the centrepiece of the table.</p>
+      <ul class="theme-card__services">
+        <li>Age &amp; name toppers</li>
+        <li>Glitter toppers</li>
+        <li>Theme toppers</li>
+      </ul>
+      <div class="theme-card__actions">
+        <a href="contact.html" class="btn btn--primary">Enquire</a>
+      </div>
+    </div>
+
+    <div class="theme-card reveal" id="candles" style="--accent:#6C5CE7">
+      <div class="theme-card__glyph">🕯️</div>
+      <h3>Candles &amp; Sparklers</h3>
+      <p>For the blow-out moment and the photos right after.</p>
+      <ul class="theme-card__services">
+        <li>Number candles</li>
+        <li>Sparkler candles</li>
+        <li>LED candles</li>
+      </ul>
+      <div class="theme-card__actions">
+        <a href="contact.html" class="btn btn--primary">Enquire</a>
+      </div>
+    </div>
+
+    <div class="theme-card reveal" id="confetti" style="--accent:#2FBF8F">
+      <div class="theme-card__glyph">🎉</div>
+      <h3>Confetti &amp; Poppers</h3>
+      <p>The mess in Happy Mess — the fun kind, we promise.</p>
+      <ul class="theme-card__services">
+        <li>Confetti poppers</li>
+        <li>Confetti balloons</li>
+        <li>Table confetti</li>
+      </ul>
+      <div class="theme-card__actions">
+        <a href="contact.html" class="btn btn--primary">Enquire</a>
+      </div>
+    </div>
+
+    <div class="theme-card reveal" id="tabledecor" style="--accent:#FFC53D">
+      <div class="theme-card__glyph">🍽️</div>
+      <h3>Table Decor</h3>
+      <p>Sets the mood before a single guest sits down.</p>
+      <ul class="theme-card__services">
+        <li>Table runners</li>
+        <li>Centrepieces</li>
+        <li>Cutlery &amp; tableware</li>
+      </ul>
+      <div class="theme-card__actions">
+        <a href="contact.html" class="btn btn--primary">Enquire</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ NEWSLETTER CTA ============ -->
+<section class="mess-club">
+  <div class="mess-club__inner reveal">
+    <h2>Join the Mess Club</h2>
+    <p>Be the first to know about new themes and restocks, plus 10% off your first order.</p>
+    <form class="mess-club__form" onsubmit="event.preventDefault();">
+      <input type="email" placeholder="you@email.com" aria-label="Email address" required>
+      <button type="submit" class="btn btn--dark">Count me in</button>
+    </form>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="footer__top">
+    <div class="footer__brand">
+      <a href="index.html"><img src="Logo-Navbar.png" alt="Happy Mess"></a>
+      <p>Party props and decor kits for every celebration that isn't a wedding ritual. Curated and packed across India.</p>
+      <div class="footer__social">
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="Facebook">FB</a>
+        <a href="#" aria-label="YouTube">YT</a>
+      </div>
+    </div>
+
+    <div class="footer__col">
+      <a href="themes.html"><h4>Themes</h4> </a>
+      <!-- <a href="index.html#birthdays">Birthdays</a>
+      <a href="index.html#bachelorette">Bachelorette</a>
+      <a href="index.html#babyshower">Baby Showers</a>
+      <a href="index.html#anniversary">Anniversary</a> -->
+    </div>
+
+    <div class="footer__col">
+    <a href="categories.html"><h4>Categories</h4> </a>
+
+      <!-- <a href="index.html#categories">Balloons</a>
+      <a href="index.html#categories">Banners &amp; Buntings</a>
+      <a href="index.html#categories">Backdrops</a>
+      <a href="index.html#categories">Photo Props</a> -->
+    </div>  
+
+    <div class="footer__col">
+      <h4>Help</h4>
+      <a href="#">Track your order</a>
+      <a href="#">Shipping policy</a>
+      <a href="#">Refund policy</a>
+      <a href="contact.html">Contact us</a>
+    </div>
+
+    <div class="footer__col">
+      <h4>Get in touch</h4>
+      <a href="mailto:happymess03@gmail.com">happymess03@gmail.com</a>
+      <a href="tel:+918796760303">+91 87967 60303</a>
+    </div>
+  </div>
+
+  <div class="footer__bottom">
+    <span>© 2026 Happy Mess. All rights reserved.</span>
+    <span>Made for people who'd rather celebrate than clean up.</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
